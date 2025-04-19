@@ -1,0 +1,46 @@
+1. User Authentication & Security
+User registration and login (OAuth, JWT-based authentication)
+Role-based access control (Admin, Investor, Viewer)
+Two-factor authentication (2FA) for added security
+
+
+2. Portfolio Management
+Add, update, and delete stocks from the portfolio
+Track stock quantities, purchase price, and current value
+Real-time portfolio valuation and profit/loss calculation
+
+
+3. Stock Market Data Integration
+Fetch live stock prices via API (e.g., Alpha Vantage, Yahoo Finance)
+Historical stock price charts and trends
+Market news and insights
+
+
+
+4. Watchlist & Alerts
+Create a personalized stock watchlist
+Set price alerts and notifications
+Track high/low stock movements
+
+
+5. Analytics & Performance Tracking
+Graphs and charts for portfolio performance
+Gain/loss analysis with historical data
+Sector-wise diversification tracking
+
+
+
+6. Transactions & Trade History
+Log buy/sell transactions with timestamps
+Auto-adjust portfolio based on transactions
+Export transaction history as CSV/PDF
+
+
+7. News & Sentiment Analysis
+AI-based sentiment analysis of stock-related news
+Trending stocks and market predictions
+
+
+8. Dividend & Earnings Tracker
+Dividend income tracking for stocks
+Earnings reports and notifications
