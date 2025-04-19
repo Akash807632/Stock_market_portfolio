@@ -1,0 +1,107 @@
+/* 🌙 Dark Themed Stock Card */
+.stock-card {
+    background: #1c1f26;  /* Dark background */
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 350px;
+    transition: transform 0.3s ease-in-out;
+    color: white; /* Text color */
+}
+
+.stock-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* 🏷 Stock Name */
+.stock-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff; /* Bright white */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* 📊 Stock Info */
+.stock-info {
+    margin-top: 10px;
+}
+
+.stock-info p {
+    font-size: 14px;
+    color: #b0b3b8; /* Light gray */
+    margin: 5px 0;
+}
+
+/* 🔥 Profit & Loss Styling */
+.profit-loss {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.profit {
+    color: #4CAF50;  /* Green for profit */
+}
+
+.loss {
+    color: #FF3B30;  /* Red for loss */
+}
+
+/* 📉 Chart Container */
+.chart-container {
+    margin-top: 15px;
+    padding: 10px;
+    background: #252830; /* Darker gray */
+    border-radius: 10px;
+}
+
+/* 📈 Chart Title */
+.chart-container h5 {
+    text-align: center;
+    color: #b0b3b8;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* 🔢 Sell Stock Section */
+.sell-section {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.sell-input {
+    width: 80px;
+    padding: 5px;
+    background: #252830;
+    color: white;
+    border: 1px solid #4f46e5;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sell-button {
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    margin-left: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+.sell-button:hover {
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+}
+
+/* 📱 Responsive */
+@media (max-width: 400px) {
+    .stock-card {
+        width: 90%;
+    }
+}

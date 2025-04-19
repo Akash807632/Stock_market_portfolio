@@ -1,0 +1,68 @@
+.transactions-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .transactions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .transactions-table th,
+  .transactions-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .transactions-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .buy {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .sell {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .download-buttons {
+    margin-top: 20px;
+  }
+  
+  .download-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .download-btn:hover {
+    background-color: #0056b3;
+  }
+  .transactions-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    color: white;  /* ✅ Default text color */
+    background-color: #1a1a1a; /* ✅ Dark background */
+}
+
+/* Preserve Buy and Sell colors */
+.transactions-table .buy {
+    color: green !important;  /* ✅ Keep green for buy */
+}
+
+.transactions-table .sell {
+    color: red !important;  /* ✅ Keep red for sell */
+}
