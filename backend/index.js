@@ -13,19 +13,18 @@ const cors = require("cors");
 
 
 
-// Allow all origins (Not recommended for production)
 app.use(cors());
-
-// OR allow specific origin (Recommended for security)
 app.use(
   cors({
-    origin: "http://localhost:8080", // Replace with your frontend URL
+    origin: "http://localhost:8080", 
     methods: "GET,POST,PUT,DELETE",
     credentials: true, // Allow cookies if needed
   })
 );
 
-
+app.get('/', (req, res) => {
+    res.send('Backend is alive!'); // Or res.json({ message: 'Backend is working!' });
+});
 app.use('/api/auth',Auth)
 app.use('/Portfolio',Portfolio)
 app.use((err,req,res,next)=>{
@@ -42,5 +41,6 @@ app.use((err,req,res,next)=>{
 
 app.listen(port, () => {
     connectDB();
-  console.log(`Example app listening on port ${port}`)
+  // console.log(`Example app listening on port ${port}`)
 })
+module.exports = app;

@@ -11,8 +11,10 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-const API_KEY = "IHDYRNRR617IDRWQ";
-
+// const API_KEY = "IHDYRNRR617IDRWQ";
+// const dotenv = require ('dotenv')
+// require('dotenv').config();
+const API_KEY = process.env.REACT_APP_ALPHA_VANTAGE_API_KEY;
 export default function StockCard(props) {
   const { stock } = props;
   const { fetchCurrentPrice, sellStock} = useContext(StockContext);

@@ -16,5 +16,3 @@ apikey.txt
 *.h5
 *.pkl
 *.csv
-# Python virtual environment
-venv/

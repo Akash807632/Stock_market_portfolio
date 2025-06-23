@@ -8,8 +8,10 @@ const PDFDocument = require('pdfkit');
 const fetchuser = require('../midleware/fetchuser')
 const { body, validationResult } = require('express-validator');
 const { findById } = require('../models/User')
-const API_KEY = "ZZEVRVN9I5UABETB";
-
+const dotenv = require ('dotenv')
+require('dotenv').config();
+// const API_KEY = "ZZEVRVN9I5UABETB";
+const API_KEY = process.env.API_KEY;
 router.get('/getall',fetchuser,async (req,res)=>{
     try {
         const stocks = await Portfolio.find({user : req.user.id})

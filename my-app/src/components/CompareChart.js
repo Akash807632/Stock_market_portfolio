@@ -20,7 +20,10 @@ export default function ComparePortfolioChart() {
     ]);
     const [selectedStocks, setSelectedStocks] = useState([]);
     const [stockLimit, setStockLimit] = useState(10); // Limit initially to 10 stocks
-    const API_KEY = "IHDYRNRR617IDRWQ";
+    // const API_KEY = "IHDYRNRR617IDRWQ";
+//     const dotenv = require ('dotenv')
+// require('dotenv').config();
+const API_KEY = process.env.REACT_APP_ALPHA_VANTAGE_API_KEY;
 
     useEffect(() => {
         const fetchPortfolioData = async () => {

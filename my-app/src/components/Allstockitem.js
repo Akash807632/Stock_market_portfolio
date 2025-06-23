@@ -3,8 +3,11 @@ import axios from "axios";
 import Papa from "papaparse";
 import StockContext from "../context/StockContext";
 import "../css/AllStockCards.css"; // Ensure styles are updated accordingly
+// const dotenv = require ('dotenv')
+// require('dotenv').config();
+const API_KEY = process.env.REACT_APP_ALPHA_VANTAGE_API_KEY;
+// const API_KEY = "ZZEVRVN9I5UABETB";
 
-const API_KEY = "ZZEVRVN9I5UABETB";
     //hardcoded stocks
     const fallbackStocks = [
         { symbol: "AAPL", name: "Apple Inc.", currentPrice: 150 },
