@@ -1,5 +1,20 @@
-final view
+#final view
+
+
+
+
+
+
+
 ![image alt](https://github.com/Akash807632/Stock_market_portfolio/blob/main/Picture1.jpg)
+![image alt](https://github.com/Akash807632/Stock_market_portfolio/blob/main/Picture2.jpg)
+![image alt](https://github.com/Akash807632/Stock_market_portfolio/blob/main/Picture3.jpg)
+![image alt](https://github.com/Akash807632/Stock_market_portfolio/blob/main/Picture4.jpg)
+![image alt](https://github.com/Akash807632/Stock_market_portfolio/blob/main/Picture5.jpg)
+![image alt](https://github.com/Akash807632/Stock_market_portfolio/blob/main/Picture6.jpg)
+![image alt](https://github.com/Akash807632/Stock_market_portfolio/blob/main/Picture7.jpg)
+![image alt](https://github.com/Akash807632/Stock_market_portfolio/blob/main/Picture8.jpg)
+![image alt](https://github.com/Akash807632/Stock_market_portfolio/blob/main/Picture9.jpg)
 
 
 # Stock Market Portfolio App — with Stock Price Prediction (LSTM)
