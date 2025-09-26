@@ -1,4 +1,5 @@
 final view
+![image alt](https://github.com/Akash807632/Stock_market_portfolio/blob/main/Picture1.jpg)
 
 
 # Stock Market Portfolio App — with Stock Price Prediction (LSTM)
@@ -282,3 +283,4 @@ If you'd like, I can also:
 * Add a short `train.md` specifically explaining how to run experiments and manage model checkpoints.
 * Provide a Dockerfile and a `docker-compose.yml` that wires frontend, backend, and ML service together.
 * Generate example `.env` templates and Postman collection for the API.
+
